@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#292826"
+    android:orientation="vertical"
+    tools:context=".metre">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Değer  :  "
+            android:textColor="#FF462C"
+            android:textSize="33dp" />
+
+        <EditText
+            android:id="@+id/girilen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#FF462C"
+            android:digits="0123456789"
+            android:inputType="numberDecimal"
+            android:textColor="#fff"
+            android:textSize="20dp"
+            android:maxLength="13"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Birim   :  "
+            android:textColor="#FF462C"
+            android:textSize="33dp" />
+
+        <Spinner
+            android:id="@+id/birimSpinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#FF462C"></Spinner>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="15dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/donusturucuB"
+            android:layout_width="match_parent"
+            android:layout_height="34dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/btndekil"
+            android:text="DÖnüştür"
+            android:textColor="#292826"
+            android:textSize="25dp" />
+        <TextView
+
+            android:id="@+id/nanometre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="17dp"
+            android:background="@drawable/btnsekil2"
+            android:gravity="center"
+            android:text="0.0  Nm"
+            android:textColor="#85FFFFFF"
+            android:textSize="20dp" />
+
+        <TextView
+
+            android:id="@+id/milimetre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="17dp"
+            android:background="@drawable/btnsekil2"
+            android:gravity="center"
+            android:text="0.0  Mm"
+            android:textColor="#85FFFFFF"
+            android:textSize="20dp" />
+        <TextView
+
+            android:id="@+id/santimetre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="17dp"
+            android:background="@drawable/btnsekil2"
+            android:gravity="center"
+            android:text="0.0  Cm"
+            android:textColor="#85FFFFFF"
+            android:textSize="20dp" />
+
+        <TextView
+
+            android:id="@+id/desimetre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="17dp"
+            android:background="@drawable/btnsekil2"
+            android:gravity="center"
+            android:text="0.0  Dm"
+            android:textColor="#85FFFFFF"
+            android:textSize="20dp" />
+        <TextView
+
+            android:id="@+id/metre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="17dp"
+            android:background="@drawable/btnsekil2"
+            android:gravity="center"
+            android:text="0.0  M"
+            android:textColor="#85FFFFFF"
+            android:textSize="20dp" />
+        <TextView
+
+            android:id="@+id/dekametre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="17dp"
+            android:background="@drawable/btnsekil2"
+            android:gravity="center"
+            android:text="0.0 Dam"
+            android:textColor="#85FFFFFF"
+            android:textSize="20dp" />
+        <TextView
+
+            android:id="@+id/kilometre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="17dp"
+            android:background="@drawable/btnsekil2"
+            android:gravity="center"
+            android:text="0.0  Km"
+            android:textColor="#85FFFFFF"
+            android:textSize="20dp" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

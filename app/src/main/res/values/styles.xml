@@ -1,0 +1,30 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+   <style name="ornekToast">
+    <item name="colorBackground">#fff</item>
+    <item name="textColor">#000</item>
+    <item name="iconLeft">@drawable/unlem</item>
+    <item name="strokeColor">#fff</item>
+    <item name="strokeWidth">2dp</item>
+    <item name="cornerRadius">30sp</item>
+</style>
+    <style name="ornekToast2">
+        <item name="colorBackground">#fff</item>
+        <item name="textColor">#000</item>
+        <item name="iconLeft">@drawable/unlem</item>
+        <item name="strokeColor">#fff</item>
+        <item name="strokeWidth">2dp</item>
+        <item name="cornerRadius">30sp</item>
+    </style>
+
+
+
+</resources>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SplashScreen"
+    android:background="#292826"
+    android:orientation="vertical"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+
+        android:orientation="horizontal"
+        android:layout_marginTop="80dp"
+        >
+        <TextView
+            android:id="@+id/kayantext2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#FF462C"
+            android:text="Hesapla"
+            android:textSize="40dp"
+            android:fontFamily="@font/yazi2"
+            android:gravity="center"
+            android:layout_weight="1"
+            />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/kayanImage"
+        android:layout_width="160dp"
+        android:layout_height="180dp"
+        android:src="@drawable/tools"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:layout_marginBottom="100dp"
+        />
+
+    <TextView
+        android:id="@+id/kayanText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tarumar"
+        android:textSize="18dp"
+        android:textColor="#FF462C"
+        android:drawableLeft="@drawable/code"
+        />
+
+
+</LinearLayout>

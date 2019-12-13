@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GridView"
+    android:background="#292826"
+
+    >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:gravity="center"
+            android:fontFamily="@font/yazi2"
+            android:text="Hesapla"
+            android:textColor="#FF462C"
+            android:textSize="30dp" />
+
+    </RelativeLayout>
+    <LinearLayout
+
+        android:id="@+id/lineer1"
+        android:layout_marginTop="70dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:id="@+id/hesapla"
+                android:src="@drawable/hesapla"
+                android:backgroundTint="#FF462C"
+                android:background="@drawable/btndekil"
+                android:layout_marginRight="1dp"
+                android:layout_marginBottom="1dp"
+                />
+            <ImageButton
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:id="@+id/krono"
+                android:background="@drawable/btndekil"
+                android:backgroundTint="#FF462C"
+                android:src="@drawable/clock"
+                android:layout_marginBottom="1dp"
+                android:layout_marginLeft="1dp"
+
+                /></LinearLayout>
+        <LinearLayout
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:layout_marginTop="1dp"
+                android:background="@drawable/btndekil"
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:backgroundTint="#FF462C"
+                android:id="@+id/ruler"
+                android:src="@drawable/ruler"
+                android:layout_marginBottom="1dp"
+                android:layout_marginLeft="1dp"
+                />
+            <ImageButton
+                android:layout_marginTop="1dp"
+                android:background="@drawable/btndekil"
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:backgroundTint="#FF462C"
+                android:id="@+id/deneme"
+                android:src="@drawable/dolar"
+                android:layout_marginBottom="1dp"
+                android:layout_marginLeft="1dp"
+                /></LinearLayout>
+        <LinearLayout
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:background="@drawable/btndekil"
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:backgroundTint="#FF462C"
+                android:id="@+id/resim5"
+                android:src="@drawable/share"
+                android:layout_marginTop="1dp"
+                />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

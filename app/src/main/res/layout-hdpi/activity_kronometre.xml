@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:CircleProgressView="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".kronometre"
+    android:gravity="center"
+    android:background="#292826"
+    android:orientation="vertical"
+    android:layout_above="@+id/layoutTur"
+    >
+
+    <TextView
+        android:id="@+id/kronometre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="00.00.00"
+        android:textColor="#FF462C"
+        android:textSize="50dp" />
+    <Button
+        android:drawableLeft="@drawable/ic_play_arrow_black_24dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btndekil"
+        android:text="Başlat"
+        android:textColor="#292826"
+        android:textSize="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="2dp"
+        android:id="@+id/btnstart"
+
+        />
+
+    <Button
+        android:id="@+id/btnpause"
+        android:drawableLeft="@drawable/ic_pause_black_24dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btndekil"
+        android:text="durdur"
+        android:textColor="#292826"
+        android:textSize="20dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="2dp"
+
+        />
+    <Button
+        android:drawableLeft="@drawable/ic_loop_black_24dp"
+        android:id="@+id/btnlaps"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btndekil"
+        android:text="tur"
+        android:textColor="#292826"
+        android:textSize="20dp"
+        android:layout_marginTop="2dp"
+
+        />
+
+
+    <LinearLayout
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@+id/layoutTur"
+        android:layout_marginTop="30dp"
+        >
+        <ScrollView
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_gravity="center"
+                android:orientation="vertical"
+                android:id="@+id/conteiner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                ></LinearLayout>
+
+        </ScrollView>
+
+
+    </LinearLayout>
+
+</LinearLayout>
